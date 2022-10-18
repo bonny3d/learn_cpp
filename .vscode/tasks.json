@@ -8,6 +8,7 @@
 			"args": [
 				"-g",
 				"${workspaceFolder}/*/*.cpp",
+				"${workspaceFolder}/*/*.h",
 				"${workspaceFolder}/*.cpp",
 				"-o",
 				"${fileDirname}/${fileBasenameNoExtension}"
