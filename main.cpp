@@ -1,7 +1,15 @@
 #include <iostream>
-#include "functions/add.h"
+#include "inc/io.h"
+#include "inc/add.h"
+
 
 int main(){
-    std::cout << add(3, 4) << '\n';
+    // read numbers
+    int x{readNumber()};
+    int y{readNumber()};
+
+    // write the answer
+    writeAnswer(x + y);
     return 0;
 }
+

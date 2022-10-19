@@ -1,4 +1,4 @@
-#include "add.h"
+#include "../../inc/add.h"
 
 int add(int x, int y){
     return x + y;
